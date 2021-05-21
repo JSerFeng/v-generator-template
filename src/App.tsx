@@ -1,5 +1,5 @@
 import "./App.css"
-import RenderMain from "./components/RenderMain.tsx"
+import RenderMain from "./components/RenderMain"
 
 function App() {
   return <div style={{
