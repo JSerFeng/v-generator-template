@@ -1,13 +1,12 @@
 import { memo, FC } from "react"
-* imports *
+&imports&
 
-
-* functionDeclarations *
+&functionDeclarations&
 
 const RenderMain: FC = () => {
   return (
     <div className="render-main">
-      *widgets*
+      &widgets&
     </div>
   )
 }
