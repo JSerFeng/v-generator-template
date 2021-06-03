@@ -5,7 +5,10 @@ import { memo, FC } from "react"
 
 const RenderMain: FC = () => {
   return (
-    <div className="render-main">
+    <div className="render-main" style={{
+      width: "%%canvasWidth%%",
+      height: "%%canvasHeight%%",
+    }}>
       %%widgets%%
     </div>
   )
