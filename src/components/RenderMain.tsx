@@ -6,6 +6,7 @@ import { memo, FC } from "react"
 const RenderMain: FC = () => {
   return (
     <div className="render-main" style={{
+      position: "relative",
       width: "%%canvasWidth%%",
       height: "%%canvasHeight%%",
     }}>

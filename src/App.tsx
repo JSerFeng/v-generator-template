@@ -5,7 +5,10 @@ function App() {
   return <div style={{
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    width: "100vw",
+    height: "100vh",
+    position: "relative"
   }}>
     <RenderMain />
   </div>
